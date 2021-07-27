@@ -1,0 +1,1262 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #1C1C1C;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: #00008B;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	margin-bottom: 20px;
+
+}
+ul{
+	margin-left: 200px;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+
+.links{
+
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	font-family: arial;
+	transition: 0.5s;
+}
+.backToTop{
+	position: fixed;
+	margin-left: 900px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.textTitle{
+	margin-left: 10px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+.home{
+	width: 80%;
+	height: 500px;
+	margin-left: 80px;
+	display: flex;
+	justify-content: start;
+	background: linear-gradient(#00008B, #fd5c63);
+
+}
+.textSide{
+	
+	width: 50%;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+.imgSide{
+	width: 50%;
+	margin-left: 30px;
+		
+
+}
+.text{
+	text-align: justify; 
+	font-size: 20px;
+	font-family: arial;
+	color: white;
+}
+.title{
+	color: white;
+	font-size: 25px;
+	font-family: arial;
+	
+}
+
+
+.img{
+
+	height: 500px;
+	width: 300px;
+}
+.links:hover{
+	transform: scale(1.2);
+}
+
+/* seção projetos */
+
+#projects{
+	margin-top: 30px; 
+	padding-top: 30px;
+}
+.title-section{
+	color: white;
+	font-size: 35px;
+	font-family: arial;
+	margin-left: 10px;
+	
+}
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px; 
+	width: 90%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+
+.grid-item{
+	padding: 10px;
+	background-color: #41cccc;
+	transition: 0.5s;
+
+}
+.img-grid{
+	width: 100%;
+	height: 50%;
+	
+
+}
+.title-project{
+	font-size: 20px;
+	font-family: arial;
+	color: black;
+	text-align: center;
+}
+.text-description{
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	text-align: justify;
+}
+.link-section{
+	text-decoration: none;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 20px;
+	color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+.link-section:hover{
+	background-color: #ffffff;
+	color: #00008B;
+}
+.grid-item:hover{
+	transform: scale(1.2);
+}
+
+/*seção tecnologias*/
+
+#tecnologys{
+
+	margin-top: 30px; 
+	padding-top: 30px;
+}
+.container-tecnology{
+	width: 190%;
+	height: 700px;
+	background-image: url("img/background.jpg");
+}
+
+.studys-tech{
+
+	margin-top: 120px;
+	
+
+}
+
+.text-tech{
+	color: #fd5c63;
+	font-size: 30px;
+	font-family: sans-serif;
+	
+
+}
+.img-tech{
+	width: 100px;
+	height: 100px;
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 30px;
+
+}
+.image-area{
+	margin-left: 100px;
+	margin-top: 30px; 
+	width: 50%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+}
+.textImage{
+	padding: 10px;
+	background-color: #41cccc;
+	transition: 0.5s;
+}
+
+.titleImage{
+	background-color: black;
+	color: #fd5c63;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+
+}
+.textImage:hover{
+
+	background-color: #00008B;
+}
+/*seção sobre mim */
+
+.about-me{
+	width: 150%;
+	height: 610px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.text-side{
+	
+	width: 50%;
+	margin-left: 30px;
+}
+.img-side{
+
+	margin-left: 50px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+.textAbout{
+	text-align: justify; 
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	
+}
+
+.titleAbout{
+	color: black;
+	font-size: 25px;
+	font-family: arial;
+	
+}
+.imgAbout{
+	height: 20rem;
+}
+
+/* footer contatos*/
+
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+}
+
+.contactsText{
+
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+
+}
+.contactsList{
+	margin-top: 20px;
+	margin-left: 330px;
+
+}
+.imgContacts{
+	height: 100px;
+	width:100px;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+.imgContacts:hover{
+
+	transform: scale(1.2);
+}
+
+/*reponsive part*/
+
+@media only screen and (min-width: 769px) and (max-width: 900px){
+  /* home */
+  .imgSide{
+	width: 50%;
+	margin-left: 0px;
+
+  }
+  .img{
+  	width: 300px;
+  	height: 500px;
+  }		
+  .backToTop{
+	position: fixed;
+	margin-left: 700px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	margin-left: 50px;
+}
+
+/*tecnologias*/
+.container-tecnology{
+	width: 165%;
+	height: 700px;
+	background-image: url("img/background.jpg");
+}
+.text-area{
+ text-align: justify;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+}
+/*sobre min*/
+.about-me{
+	width: 150%;
+	height: 710px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 250px;
+
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 768px){
+	 /* home */
+  .imgSide{
+	width: 50%;
+	margin-left: 0px;
+
+  }
+  .img{
+  	width: 200px;
+  	height: 500px;
+  }		
+  .backToTop{
+	position: fixed;
+	margin-left: 550px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	margin-left: 20px;
+}
+
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px; 
+	width: 90%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+
+/*tecnologias*/
+.container-tecnology{
+	width: 104%;
+	height: 750px;
+	background-image: url("img/background600.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+}
+/*sobre min*/
+.about-me{
+	width: 150%;
+	height: 810px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 7rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 150px;
+
+}
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+	margin-top: 100px;
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 600px){
+ /* home */
+  .imgSide{
+	display: none;
+
+  }
+  .img{
+  	display: none;
+  }		
+
+  .textSide{
+	
+	width: 90%;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+  }
+  .backToTop{
+	position: fixed;
+	margin-left: 400px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	display: none;
+ }
+
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px; 
+	width: 70%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+.textTitle{
+	margin-left: 100px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+/*tecnologias*/
+#tecnologys{
+
+	margin-top: 900px; 
+	padding-top: 30px;
+}
+.container-tecnology{
+	width: 80%;
+	height: 1100px;
+	background-image: url("img/background300.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+
+}
+.text-tech{
+	color: #fd5c63;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+
+}
+.image-area{
+	margin-left: 0px;
+	margin-top: 50px; 
+	width: 50%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 30px 10px;
+}
+.studys-tech{
+
+	margin-top: 120px;
+	margin-bottom: 120px;
+	padding-top: 150px;
+	
+
+}
+/*sobre min*/
+.about-me{
+	width: 120%;
+	height: 1010px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+
+#about{
+	margin-top: 400px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+	margin-top: 250px;
+}
+
+
+}
+@media only screen and (max-width: 480){
+	 /* home */
+  .imgSide{
+	display: none;
+
+  }
+  .img{
+  	display: none;
+  }		
+
+  .textSide{
+	
+	width: 80%;
+	margin-top: 60px;
+	margin-left: 30px;
+  }
+  .backToTop{
+	position: fixed;
+	margin-left: 350px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	display: none;
+}
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px; 
+	width: 70%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+.textTitle{
+	margin-left: 100px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+/*tecnologias*/
+#tecnologys{
+
+	margin-top: 900px; 
+	padding-top: 30px;
+}
+.container-tecnology{
+	width: 80%;
+	height: 1100px;
+	background-image: url("img/background300.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+
+}
+.text-tech{
+	color: #fd5c63;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+
+}
+.image-area{
+	margin-left: 0px;
+	margin-top: 50px; 
+	width: 50%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 30px 10px;
+}
+.studys-tech{
+
+	margin-top: 120px;
+	margin-bottom: 120px;
+	padding-top: 150px;
+	
+
+}
+/*sobre min*/
+.about-me{
+	width: 120%;
+	height: 1010px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+
+#about{
+	margin-top: 400px;
+}
+
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 900px)  {
+       /* home */
+  .imgSide{
+	width: 50%;
+	margin-left: 0px;
+
+  }
+  .img{
+  	width: 300px;
+  	height: 500px;
+  }		
+  .backToTop{
+	position: fixed;
+	margin-left: 700px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	margin-left: 50px;
+}
+
+/*tecnologias*/
+.container-tecnology{
+	width: 165%;
+	height: 700px;
+	background-image: url("img/background.jpg");
+}
+.text-area{
+ text-align: justify;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+}
+/*sobre min*/
+.about-me{
+	width: 150%;
+	height: 710px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 250px;
+
+}
+}
+@media only screen and (min-device-width: 601px) and (max-device-width: 768px)  {
+    	 /* home */
+  .imgSide{
+	width: 50%;
+	margin-left: 0px;
+
+  }
+  .img{
+  	width: 200px;
+  	height: 500px;
+  }		
+  .backToTop{
+	position: fixed;
+	margin-left: 550px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	margin-left: 20px;
+}
+
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px; 
+	width: 90%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+
+/*tecnologias*/
+.container-tecnology{
+	width: 104%;
+	height: 750px;
+	background-image: url("img/background600.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+}
+/*sobre min*/
+.about-me{
+	width: 150%;
+	height: 810px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 7rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 150px;
+
+}
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+	margin-top: 100px;
+}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
+    /* home */
+  .imgSide{
+	display: none;
+
+  }
+  .img{
+  	display: none;
+  }		
+
+  .textSide{
+	
+	width: 90%;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+  }
+  .backToTop{
+	position: fixed;
+	margin-left: 400px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	display: none;
+ }
+
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px; 
+	width: 70%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+.textTitle{
+	margin-left: 100px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+/*tecnologias*/
+#tecnologys{
+
+	margin-top: 900px; 
+	padding-top: 30px;
+}
+.container-tecnology{
+	width: 80%;
+	height: 1100px;
+	background-image: url("img/background300.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+
+}
+.text-tech{
+	color: #fd5c63;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+
+}
+.image-area{
+	margin-left: 0px;
+	margin-top: 50px; 
+	width: 50%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 30px 10px;
+}
+.studys-tech{
+
+	margin-top: 120px;
+	margin-bottom: 120px;
+	padding-top: 150px;
+	
+
+}
+/*sobre min*/
+.about-me{
+	width: 120%;
+	height: 1010px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+
+#about{
+	margin-top: 400px;
+}
+/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+	margin-top: 250px;
+}
+
+
+}
+@media only screen and (max-device-width: 480px){
+		 /* home */
+  .imgSide{
+	display: none;
+
+  }
+  .img{
+  	display: none;
+  }		
+
+  .textSide{
+	
+	width: 80%;
+	margin-top: 60px;
+	margin-left: 30px;
+  }
+  .backToTop{
+	position: fixed;
+	margin-left: 350px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #00008B;
+	font-family: arial;
+	font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+   }
+   ul{
+	display: none;
+}
+/*projects*/
+
+.container{
+	
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px; 
+	width: 70%;
+	height: 800px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 10px 10px;
+
+}
+.textTitle{
+	margin-left: 100px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+}
+
+/*tecnologias*/
+#tecnologys{
+
+	margin-top: 900px; 
+	padding-top: 30px;
+}
+.container-tecnology{
+	width: 80%;
+	height: 1100px;
+	background-image: url("img/background300.jpg");
+}
+.text-area{
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin-right: 0px;
+
+
+}
+.text-tech{
+	color: #fd5c63;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+
+}
+.image-area{
+	margin-left: 0px;
+	margin-top: 50px; 
+	width: 50%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto, 130px);
+	grid-gap: 30px 10px;
+}
+.studys-tech{
+
+	margin-top: 120px;
+	margin-bottom: 120px;
+	padding-top: 150px;
+	
+
+}
+/*sobre min*/
+.about-me{
+	width: 120%;
+	height: 1010px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: start;
+	background: linear-gradient(white, blue);
+
+}
+.img-side{
+
+	margin-left: 40px;
+	display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+		
+
+}
+
+.imgAbout{
+	height: 10rem;
+}
+.text-side{
+	
+	width: 70%;
+	margin-left: 30px;
+}
+
+#about{
+	margin-top: 400px;
+}
+}
+
+
