@@ -1122,6 +1122,15 @@ ul li{
 }
 @media only screen and (max-device-width: 480px){
 		 /* home */
+.home{
+	width: 80%;
+	height: 500px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: start;
+	background: linear-gradient(#00008B, #fd5c63);
+
+}
   .imgSide{
 	display: none;
 
