@@ -11,3 +11,5 @@ Este projeto é sobre o meu portifólio de desenvolvimento nele coloquei um pouc
 
 * Sublime text
 
+* Link da aplicação : [veja o resultado desse codigo aqui](https://epic-chandrasekhar-5b2b85.netlify.app/)
+
