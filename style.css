@@ -1257,6 +1257,18 @@ ul li{
 #about{
 	margin-top: 400px;
 }
+	/*contatos*/
+.contactsList{
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+#contacts{
+	background-color: orange;
+	width: 100%;
+	height: 200px;
+	margin-top: 250px;
+}
 }
 
 
